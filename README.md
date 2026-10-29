@@ -25,16 +25,6 @@ SpatialPlexomera for macOS supports macOS 13 or later on Apple Silicon and Intel
 
 The complete testing workflow, dataset contents, integrity checks, and interpretation notes are documented in the [`demo_dataset` guide](demo_dataset/README.md).
 
-## Platform roadmap
-
-| Platform | Status | Repository location |
-| --- | --- | --- |
-| macOS | Version 1.4.0 | Current Xcode project |
-| Windows x64 | Version 1.4.0 | [`windows/`](windows/) |
-
-Both platforms use the same `SpatialPlexomera` product identity, analysis definitions, and output contracts. Platform versions and release tags are tracked independently.
-
-The language selector follows the operating system by default and can be set explicitly to English or Simplified Chinese from the sidebar. This changes UI text only; analysis methods, exported data, filenames, schemas, and the `SpatialPlexomera` product name remain unchanged.
 
 ## Build from source
 
